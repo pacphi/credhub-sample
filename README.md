@@ -101,6 +101,14 @@ Edit the contents of `stuff.json`, then
 cf update-service mych -c stuff.json
 cf restage spring-credhub-demo
 ```
+> Note we'll take down time while we do this.  We'll explore how to update configuration in a zero-down time fashion later on.
+
+
+### Test the application again to see that the updates took effect
+
+```
+http https://spring-credhub-demo.apps.pcfone.io
+```
 
 ### Emulate a blue-green deployment
 
