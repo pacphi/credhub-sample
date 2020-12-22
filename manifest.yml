@@ -1,0 +1,9 @@
+---
+applications:
+- name: spring-credhub-demo
+  memory: 1G
+  path: build/libs/credhub-sample-1.0-SNAPSHOT.jar
+  env:
+    JAVA_OPTS: -Djava.security.egd=file:///dev/urandom
+    SPRING_PROFILES_ACTIVE: cloud
+    JBP_CONFIG_SPRING_AUTO_RECONFIGURATION: '{ enabled: false }'

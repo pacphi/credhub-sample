@@ -1,0 +1,4 @@
+{
+  "clouds": [ "Amazon", "Microsoft", "Oracle", "Digital Ocean", "Google", "Alibaba"  ],
+  "languages": [ "Javascript", "Java", "Go", "Lisp", "Kotlin", "Clojure", "Python", "PHP", "Rust"  ]
+}
