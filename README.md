@@ -79,6 +79,20 @@ cf bind-service spring-credhub-demo mych
 cf start spring-credhub-demo
 ```
 
+### Test the application
+
+If you have `curl`, then
+
+```bash
+curl -k https://spring-credhub-demo.apps.pcfone.io
+```
+
+Better yet, with [httpie](https://httpie.io/)
+
+```
+http https://spring-credhub-demo.apps.pcfone.io
+```
+
 ### Update configuration in service instance and restage application
 
 Edit the contents of `stuff.json`, then
