@@ -9,7 +9,8 @@ The demo application includes a deployment manifest that makes it simple to depl
 Required
 
 * Access to a foundation with Pivotal Application Service 2.8 or better installed
-  * and [Pivotal Application Service](https://pivotal.io/platform/pivotal-application-service) admin account credentials
+  * and [Pivotal Application Service](https://pivotal.io/platform/pivotal-application-service) account credentials
+    * e.g., an account on [PCFOne](https://apps.run.pcfone.io/) should suffice 
 
 
 ## Tools
