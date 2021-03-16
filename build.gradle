@@ -1,16 +1,16 @@
 plugins {
-    id 'org.springframework.boot' version '2.4.2'
+    id 'org.springframework.boot' version '2.4.3'
     id 'io.spring.dependency-management' version '1.0.11.RELEASE'
-    id 'com.github.ben-manes.versions' version '0.36.0'
+    id 'com.github.ben-manes.versions' version '0.38.0'
 	id 'java'
     id 'jacoco'
-    id 'com.google.cloud.tools.jib' version '2.7.1'
-    id 'com.github.spotbugs' version '4.6.0'
-    id 'info.solidsoft.pitest' version '1.5.2'
+    id 'com.google.cloud.tools.jib' version '2.8.0'
+    id 'com.github.spotbugs' version '4.7.0'
+    id 'info.solidsoft.pitest' version '1.6.0'
 }
 
 spotbugs {
-    toolVersion = '4.0.3'
+    toolVersion = '4.2.1'
     ignoreFailures = true
     effort = 'max'
     reportLevel = 'low'
@@ -91,7 +91,7 @@ dependencies {
     annotationProcessor('org.projectlombok:lombok')
     implementation('org.projectlombok:lombok')
     implementation('org.springframework.boot:spring-boot-configuration-processor')
-    implementation('io.pivotal.cfenv:java-cfenv-boot:2.2.5.RELEASE')
+    implementation('io.pivotal.cfenv:java-cfenv-boot:2.3.0')
     implementation('org.springframework.credhub:spring-credhub-starter:2.1.1.RELEASE')
     implementation('org.springframework.boot:spring-boot-starter-actuator')
     implementation('org.springframework.boot:spring-boot-starter-web')
